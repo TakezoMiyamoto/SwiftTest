@@ -12,6 +12,8 @@
 		B1CB9A5F1DD9A7FD00987557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CB9A5D1DD9A7FD00987557 /* Main.storyboard */; };
 		B1CB9A611DD9A7FD00987557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CB9A601DD9A7FD00987557 /* Assets.xcassets */; };
 		B1CB9A641DD9A7FD00987557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CB9A621DD9A7FD00987557 /* LaunchScreen.storyboard */; };
+		B1CB9A6D1DD9ABAD00987557 /* back2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1CB9A6B1DD9ABAD00987557 /* back2.jpg */; };
+		B1CB9A6E1DD9ABAD00987557 /* back1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1CB9A6C1DD9ABAD00987557 /* back1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B1CB9A601DD9A7FD00987557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1CB9A631DD9A7FD00987557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1CB9A651DD9A7FD00987557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1CB9A6B1DD9ABAD00987557 /* back2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back2.jpg; sourceTree = "<group>"; };
+		B1CB9A6C1DD9ABAD00987557 /* back1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		B1CB9A581DD9A7FD00987557 /* SwiftTest */ = {
 			isa = PBXGroup;
 			children = (
+				B1CB9A6B1DD9ABAD00987557 /* back2.jpg */,
+				B1CB9A6C1DD9ABAD00987557 /* back1.jpg */,
 				B1CB9A591DD9A7FD00987557 /* AppDelegate.swift */,
 				B1CB9A5B1DD9A7FD00987557 /* ViewController.swift */,
 				B1CB9A5D1DD9A7FD00987557 /* Main.storyboard */,
@@ -124,8 +130,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1CB9A641DD9A7FD00987557 /* LaunchScreen.storyboard in Resources */,
+				B1CB9A6E1DD9ABAD00987557 /* back1.jpg in Resources */,
 				B1CB9A611DD9A7FD00987557 /* Assets.xcassets in Resources */,
 				B1CB9A5F1DD9A7FD00987557 /* Main.storyboard in Resources */,
+				B1CB9A6D1DD9ABAD00987557 /* back2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
