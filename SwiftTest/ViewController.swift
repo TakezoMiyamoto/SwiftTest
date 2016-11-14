@@ -9,15 +9,44 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var backImageView: UIImageView!
+    
+    var count = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        count = 0
+        
     }
+    
+    @IBAction func change(_ sender: Any) {
+        
+        // backImageViewと名前のついたパーツの画像を変更する
+        if(count == 0) {
+            
+            backImageView.image = UIImage(named: "back1.jpg")
+            count = 1
+            
+        } else if(count == 1) {
+            
+            backImageView.image = UIImage(named: "back2.jpg")
+            count = 0
+        }
+        
+        
+        
+        
+    }
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+    
     }
 
 
